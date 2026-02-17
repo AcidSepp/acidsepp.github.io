@@ -54,7 +54,7 @@ Gradle 9.3.1
   - Gradle DSL: Kotlin
   - Add Sample Code: yes
   
-![windowsProject.png](windowsProject.png)
+[](windowsProject.png)
 
 - In your project open "src/main/java/org.example/Main.java"
 - Press the green play button next to the main method and verify that everything works correctly

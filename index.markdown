@@ -1,5 +1,7 @@
 ---
 layout: home
+title: "Overview"
+nav_exclude: true
 ---
 
 ## Programmieren II

@@ -8,5 +8,8 @@ github_username:  acidsepp
 
 # Build settings
 theme: minima
-plugins:
-  - jekyll-feed
+#plugins:
+#  - jekyll-feed
+
+header_pages:
+  - index.markdown
