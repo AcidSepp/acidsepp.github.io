@@ -2,7 +2,7 @@
 layout: home
 ---
 
-## Java
+## Programmieren II
 
 [Linux]({% link programmierenII/linux.markdown %})
 
