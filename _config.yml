@@ -1,0 +1,12 @@
+title: Programming Environment Setup Guides
+email: yannick.weber@haw-landshut.de
+description: >-
+  This is a collection of setup guides to ease your first steps into programming!
+baseurl: ""
+url: ""
+github_username:  acidsepp
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
