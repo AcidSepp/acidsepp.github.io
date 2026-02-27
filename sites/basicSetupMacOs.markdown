@@ -1,29 +1,24 @@
----
-layout: post
-title:  "Programmieren II on Linux"
----
-
 ## Prerequisites
 
-- Install [sdkman](https://sdkman.io/)
+Install [homebrew](https://brew.sh/)
 
 ## Install JDK 25
 
-- Open a terminal
+- Open terminal
 - Install Java:
 
-```bash
-sdk install java 25-tem
+```zsh
+brew install --cask temurin@25
 ```
 - Open a new terminal
 - Verify the installation, make sure that the version is "25" and the name contains "OpenJDK Runtime Environment Temurin":
 
-```bash
+```zsh
 java -version
 ```
 - The output should look like this:
 
-```bash
+```zsh
 openjdk version "25" 2025-09-16 LTS
 OpenJDK Runtime Environment Temurin-25+36 (build 25+36-LTS)
 OpenJDK 64-Bit Server VM Temurin-25+36 (build 25+36-LTS, mixed mode, sharing)
@@ -33,26 +28,50 @@ OpenJDK 64-Bit Server VM Temurin-25+36 (build 25+36-LTS, mixed mode, sharing)
 
 - Install Gradle:
 
-```bash
-sdk install gradle 9.3.1
+```zsh
+brew install --cask gradle@9
 ```
-- Open a new terminal
+
 - Verify the installation, make sure that the version is "9":
 
-```bash
+```zsh
 gradle -version
 ```
+
 - The output should look like this:
 
-```powershell
+```zsh
 ------------------------------------------------------------
 Gradle 9.3.1
 ------------------------------------------------------------
 ```
 
+## Install Git (optional)
+
+- Install [Git](https://git-scm.com/install/mac):
+
+```zsh
+brew install git
+```
+
+- Verify the installation:
+
+```zsh
+git -v
+```
+- The output should look like this:
+
+```zsh
+git version 2.51.0
+```
+
 ## Install IntelliJ
 
-- Install the [JetBrains Toolbox](https://www.jetbrains.com/help/toolbox-app/toolbox-app-silent-installation.html#toolbox_linux)
+- Install the JetBrains Toolbox:
+```zsh
+brew install --cask jetbrains-toolbox
+```
+
 - Open JetBrains Toolbox and click "install" on "IntelliJ IDEA".
 - Open IntelliJ and create a new Java project:
     - Name: test
@@ -66,3 +85,4 @@ Gradle 9.3.1
 
 - In your project open "src/main/java/org.example/Main.java"
 - Press the green play button next to the main method and verify that everything works correctly
+
