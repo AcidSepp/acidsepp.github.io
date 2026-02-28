@@ -5,6 +5,20 @@ title:  "Datenkommunikation on Windows"
 
 {% include_relative basicSetupWindows.markdown %}
 
+## Docker
+
+- Install docker
+
+```
+winget install --id=Docker.DockerDesktop -e
+```
+- Restart PowerShell
+- Verify the installation:
+
+```
+docker -v
+```
+
 ## Command Line Tools
 
 - Install wsl
