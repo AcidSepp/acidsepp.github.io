@@ -6,16 +6,24 @@ nav_exclude: true
 
 ## Programmieren II
 
-[Linux]({% link sites/programmierenIILinux.markdown %})
+[Linux]({% link sites/programmierenIILinux.md %})
 
-[MacOS]({% link sites/programmierenIIMacOs.markdown %})
+[MacOS]({% link sites/programmierenIIMacOs.md %})
 
-[Windows]({% link sites/programmierenIIWindows.markdown %})
+[Windows]({% link sites/programmierenIIWindows.md %})
 
 ## Datenkommunikation
 
-[Linux]({% link sites/datenkommunikationLinux.markdown %})
+[Linux]({% link sites/datenkommunikationLinux.md %})
 
-[MacOs]({% link sites/datenkommunikationMacOs.markdown %})
+[MacOs]({% link sites/datenkommunikationMacOs.md %})
 
-[Windows]({% link sites/datenkommunikationWindows.markdown %})
+[Windows]({% link sites/datenkommunikationWindows.md %})
+
+## Internettechnologien
+
+[Linux]({% link sites/internettechnologienLinux.md %})
+
+[MacOs]({% link sites/internettechnologienMacOs.md %})
+
+[Windows]({% link sites/internettechnologienWindows.md %})

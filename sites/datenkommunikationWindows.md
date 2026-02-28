@@ -3,21 +3,9 @@ layout: post
 title:  "Datenkommunikation on Windows"
 ---
 
-{% include_relative basicSetupWindows.markdown %}
+{% include_relative basicSetupWindows.md %}
 
-## Docker
-
-- Install docker
-
-```
-winget install --id=Docker.DockerDesktop -e
-```
-- Restart PowerShell
-- Verify the installation:
-
-```
-docker -v
-```
+{% include_relative dockerWindows.md %}
 
 ## Command Line Tools
 
@@ -68,12 +56,4 @@ DiG 9.20.11-1ubuntu2.1-Ubuntu
 nslookup tcpbin.com
 ```
 
-## Wireshark
-
-- Install Wireshark
-
-```powershell
-winget install --id=WiresharkFoundation.Wireshark -e
-```
-
-- Install [Npcap](https://npcap.com/#download)
+{% include_relative wiresharkWindows.md %}

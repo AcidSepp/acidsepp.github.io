@@ -3,26 +3,9 @@ layout: post
 title:  "Datenkommunikation on MacOs"
 ---
 
-{% include_relative basicSetupMacOs.markdown %}
+{% include_relative basicSetupMacOs.md %}
 
-## Docker
-
-- Install Docker:
-
-```bash
-brew install --cask docker-desktop
-```
-
-- Verify the installation:
-
-```bash
-docker -v
-```
-- The output should look like this:
-
-```bash
-Docker version 29.2.1, build a5c7197
-```
+{% include_relative dockerMacOs.md %}
 
 ## Command Line Tools
 
@@ -59,23 +42,5 @@ DiG 9.20.11-1ubuntu2.1-Ubuntu
 brew install bind
 ```
 
-## Wireshark
-
-- Install Wireshark:
-
-```bash
-brew install wireshark
-```
-
-- Verify the installation:
-
-```bash
-wireshark --version
-```
-
-- The output should look like this:
-
-```bash
-Wireshark 4.6.3.
-```
+{% include_relative wiresharkMacOs.md %}
 
