@@ -29,7 +29,7 @@ OpenJDK 64-Bit Server VM Temurin-25+36 (build 25+36-LTS, mixed mode, sharing)
 - Install Gradle:
 
 ```zsh
-brew install --cask gradle@9
+brew install gradle@9
 ```
 
 - Verify the installation, make sure that the version is "9":
