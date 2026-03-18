@@ -44,10 +44,4 @@ brew install bind
 
 {% include_relative wiresharkMacOs.md %}
 
-## Examples Repository
-
-Clone the examples repository (preferable in `~/IdeaProjects`):
-
-```
-git clone https://github.com/AcidSepp/datenkommunikation-examples.git
-```
+{% include_relative datenkommunikationExamplesRepository.md %}
