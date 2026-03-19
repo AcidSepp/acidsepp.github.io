@@ -61,7 +61,7 @@ git version 2.51.0
 
 ## Install IntelliJ
 
-- Install the [JetBrains Toolbox](https://www.jetbrains.com/help/toolbox-app/toolbox-app-silent-installation.html#toolbox_linux)
+- Install the [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app/)
 - Open JetBrains Toolbox and click "install" on "IntelliJ IDEA".
 - Open IntelliJ and create a new Java project:
     - Name: test
