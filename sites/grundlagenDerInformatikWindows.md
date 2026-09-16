@@ -6,6 +6,11 @@ title:  "Grundlagen der Informatik on Windows"
 ## Install UV
 
 - Install [UV](https://docs.astral.sh/uv/getting-started/installation/)
+
+```powershell
+winget install --id=astral-sh.uv  -e
+```
+
 - Verify the installation:
 
 ```powershell
