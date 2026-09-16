@@ -45,19 +45,7 @@ Gradle 9.3.1
 ------------------------------------------------------------
 ```
 
-## Install Git (optional)
-
-- Install [Git](https://git-scm.com/install/linux)
-- Verify the installation:
-
-```bash
-git -v
-```
-- The output should look like this:
-
-```bash
-git version 2.51.0
-```
+{% include_relative installGitLinux.md %}
 
 ## Install IntelliJ
 

@@ -4,6 +4,14 @@ title: "Overview"
 nav_exclude: true
 ---
 
+## Grundlagen der Informatik
+
+[Linux]({% link sites/grundlagenDerInformatikLinux.md %})
+
+[MacOS]({% link sites/grundlagenDerInformatikMacOs.md %})
+
+[Windows]({% link sites/grundlagenDerInformatikWindows.md %})
+
 ## Programmieren II
 
 [Linux]({% link sites/programmierenIILinux.md %})
