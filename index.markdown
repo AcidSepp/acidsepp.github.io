@@ -35,3 +35,11 @@ nav_exclude: true
 [MacOs]({% link sites/internettechnologienMacOs.md %})
 
 [Windows]({% link sites/internettechnologienWindows.md %})
+
+## Mobile Computing
+
+[Linux]({% link sites/mobileComputingLinux.md %})
+
+[MacOs]({% link sites/mobileComputingMacOs.md %})
+
+[Windows]({% link sites/mobileComputingWindows.md %})

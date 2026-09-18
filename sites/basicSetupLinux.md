@@ -4,13 +4,11 @@
 
 ## Install JDK 25
 
-- Open a terminal
 - Install Java:
 
 ```bash
 sdk install java 25-tem
 ```
-- Open a new terminal
 - Verify the installation, make sure that the version is "25" and the name contains "OpenJDK Runtime Environment Temurin":
 
 ```bash
@@ -31,7 +29,6 @@ OpenJDK 64-Bit Server VM Temurin-25+36 (build 25+36-LTS, mixed mode, sharing)
 ```bash
 sdk install gradle 9.3.1
 ```
-- Open a new terminal
 - Verify the installation, make sure that the version is "9":
 
 ```bash

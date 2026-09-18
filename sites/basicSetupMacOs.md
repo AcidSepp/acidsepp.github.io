@@ -10,7 +10,6 @@ Install [homebrew](https://brew.sh/)
 ```zsh
 brew install --cask temurin@25
 ```
-- Open a new terminal
 - Verify the installation, make sure that the version is "25" and the name contains "OpenJDK Runtime Environment Temurin":
 
 ```zsh
