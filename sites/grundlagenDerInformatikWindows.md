@@ -3,6 +3,10 @@ layout: post
 title:  "Grundlagen der Informatik on Windows"
 ---
 
+## Setup Powershell
+
+- [Allow script execution in Powershell](https://windowsloop.com/enable-powershell-scripts-execution-windows-10/)
+
 ## Install UV
 
 - Install [UV](https://docs.astral.sh/uv/getting-started/installation/)

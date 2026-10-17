@@ -1,3 +1,7 @@
+## Setup Powershell
+
+- [Allow script execution in Powershell](https://windowsloop.com/enable-powershell-scripts-execution-windows-10/)
+
 ## Install JDK 25
 
 - Open PowerShell as administrator to install Java:
